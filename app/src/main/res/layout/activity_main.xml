@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.dji.videostreamdecodingsample.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_title_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/title_dark">
+
+        <!--<TextView-->
+        <!--android:id="@+id/title_tv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="@string/title_main_activity"-->
+        <!--android:textColor="@android:color/white" />-->
+
+    </RelativeLayout>
+
+    <TextureView
+        android:id="@+id/livestream_preview_ttv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_title_rl"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="-1dp"
+        android:alpha="50"
+        android:visibility="visible" />
+
+    <SurfaceView
+        android:id="@+id/livestream_preview_sf"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/main_title_rl"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/main_title_rl"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_marginLeft="1dp"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/activity_main_screen_shot"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:clickable="true"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClick"-->
+            <!--android:text="INIT" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/model1"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClick"-->
+            <!--android:text="集体拍" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/model2"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClick"-->
+            <!--android:text="随行拍" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/model3"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:onClick="onClick"-->
+            <!--android:text="C位拍" />-->
+
+
+    <!--</LinearLayout>-->
+    <RelativeLayout
+        android:id="@+id/rlAddBill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/miniFab04"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="2dp"
+                android:text="楼宇拍"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#feb245"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll04"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/miniFab02"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="2dp"
+                android:text="智能航拍"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#c0cc4a"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll05"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/miniFab02"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="2dp"
+                android:text="随行拍"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#77c9fb"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll06"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/miniFab02"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="2dp"
+                android:text="集体拍"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#fd8273"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlAddBill1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ll01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="90dp"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#c0cc4a"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:text="中心构图"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll01"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#77c9fb"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:text="填充构图"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll02"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/miniFab03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:src="@mipmap/norm"
+                app:backgroundTint="#fd8273"
+                app:elevation="5dp"
+                app:fabSize="mini" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingBottom="2dp"
+                android:layout_marginLeft="5dp"
+                android:text="三分构图"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="24dp"
+        android:onClick="action"
+        android:background="@mipmap/camera" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="25dp"
+        app:backgroundTint="#00000000"
+        app:elevation="1dp"
+        app:rippleColor="#00000000"
+        app:srcCompat="@mipmap/addteam" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="25dp"
+        app:backgroundTint="#00000000"
+        app:elevation="0dp"
+        app:rippleColor="#00000000"
+        app:srcCompat="@mipmap/pushpin" />
+
+</RelativeLayout>

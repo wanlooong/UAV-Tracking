@@ -1,0 +1,402 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:2:1-61:12
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:2:1-61:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ce0e18d090974d096a88c065470631\AndroidManifest.xml:17:1-22:12
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:2:1-75:12
+MERGED from [:openCVLibrary345] F:\Android\iLearn\iLearn-v2\openCVLibrary345\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f0ce2596592f1ec4c7ac5b3a9e7f23eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\cbd66805ff2633a1804db6f90a26c643\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\bdcb16dc24e1d4977182a30049a9efaa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0321359362f648fc68632e8fc72ec6fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\491bced7886a930072e6837162b47e18\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\aa166233ee7f2dda8edd1e4a71cbc22b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a3f06d471f4be2064f7e0a42dad52aed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a983f1de471084af32f6fb9c0a5de7d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\15bc7e25d2908446f0f38c3d06dddc15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bdd4fb8149701ee630c818b6d592115f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\590c547f834de3aede5e08edef64db93\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c0d4b7b1d33a5e754842fa1c8dc2a425\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\35edb921fa68d092d26e3ec2eb9f1966\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\74859ac06f6eaa338db6a01c19ae06d7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dda038efb9a7e76aa6ea0a939599ac82\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\10c94d88b5569a80d6f9dbff513693c7\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:2:11-54
+		INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.VIBRATE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:5:5-65
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:35:5-66
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:5:22-63
+uses-permission#android.permission.INTERNET
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:7:5-75
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:21:5-76
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:20:5-68
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:17:5-81
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:10:5-78
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:13:5-79
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:11:5-78
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:18:5-79
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:12:5-75
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:39:5-76
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:13:5-83
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:26:5-84
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:13:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:14:5-80
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:15:5-81
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:16:5-77
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:23:5-78
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:16:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:17:5-74
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:40:5-75
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:11:5-68
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:19:5-74
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:12:5-74
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:19:22-71
+uses-feature#android.hardware.camera
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:21:5-59
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:21:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:22:5-69
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:22:19-67
+uses-feature#android.hardware.usb.host
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:23:5-25:35
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:53:5-55:36
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:24:9-49
+uses-feature#android.hardware.usb.accessory
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:26:5-28:34
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:56:5-58:35
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:56:5-58:35
+	android:required
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:28:9-32
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:27:9-54
+application
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:30:5-59:19
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:60:5-73:19
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:60:5-73:19
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:21:5-32:19
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:21:5-32:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\cbd66805ff2633a1804db6f90a26c643\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\cbd66805ff2633a1804db6f90a26c643\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:34:9-57
+	android:icon
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:33:9-41
+	android:allowBackup
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:36:9-40
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:31:9-49
+meta-data#com.dji.sdk.API_KEY
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:38:9-40:55
+	android:value
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:40:13-53
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:39:13-47
+activity#com.dji.videostreamdecodingsample.ConnectionActivity
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:42:9-54:20
+	android:screenOrientation
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:45:13-49
+	android:launchMode
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:44:13-43
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:43:13-47
+intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:47:17-68
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:48:27-74
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:49:17-92
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:49:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:51:13-53:59
+	android:resource
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:53:17-57
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:52:17-82
+activity#com.dji.videostreamdecodingsample.MainActivity
+ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:55:9-58:92
+	android:screenOrientation
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:56:13-50
+	android:configChanges
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:57:13-59
+	android:theme
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:58:13-80
+	android:name
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml:55:19-47
+uses-sdk
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ce0e18d090974d096a88c065470631\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\71ce0e18d090974d096a88c065470631\AndroidManifest.xml:20:5-43
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary345] F:\Android\iLearn\iLearn-v2\openCVLibrary345\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary345] F:\Android\iLearn\iLearn-v2\openCVLibrary345\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f0ce2596592f1ec4c7ac5b3a9e7f23eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f0ce2596592f1ec4c7ac5b3a9e7f23eb\AndroidManifest.xml:20:5-44
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fd02768abc83c1c56528e052710b293b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\cbd66805ff2633a1804db6f90a26c643\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\cbd66805ff2633a1804db6f90a26c643\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\bdcb16dc24e1d4977182a30049a9efaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\bdcb16dc24e1d4977182a30049a9efaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0321359362f648fc68632e8fc72ec6fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\0321359362f648fc68632e8fc72ec6fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\491bced7886a930072e6837162b47e18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\491bced7886a930072e6837162b47e18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\aa166233ee7f2dda8edd1e4a71cbc22b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\aa166233ee7f2dda8edd1e4a71cbc22b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a3f06d471f4be2064f7e0a42dad52aed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a3f06d471f4be2064f7e0a42dad52aed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a983f1de471084af32f6fb9c0a5de7d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\a983f1de471084af32f6fb9c0a5de7d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\15bc7e25d2908446f0f38c3d06dddc15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\15bc7e25d2908446f0f38c3d06dddc15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bdd4fb8149701ee630c818b6d592115f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bdd4fb8149701ee630c818b6d592115f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\590c547f834de3aede5e08edef64db93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\590c547f834de3aede5e08edef64db93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c0d4b7b1d33a5e754842fa1c8dc2a425\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c0d4b7b1d33a5e754842fa1c8dc2a425\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\35edb921fa68d092d26e3ec2eb9f1966\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\35edb921fa68d092d26e3ec2eb9f1966\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\74859ac06f6eaa338db6a01c19ae06d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\74859ac06f6eaa338db6a01c19ae06d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dda038efb9a7e76aa6ea0a939599ac82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dda038efb9a7e76aa6ea0a939599ac82\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\10c94d88b5569a80d6f9dbff513693c7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\10c94d88b5569a80d6f9dbff513693c7\AndroidManifest.xml:20:5-44
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+		ADDED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Android\iLearn\iLearn-v2\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.WRITE_USER_DICTIONARY
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.CAMERA
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:25:22-62
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:30:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:31:22-70
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:33:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:41:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:42:22-68
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:44:22-82
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:50:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:50:22-71
+service#dji.sdk.sdkmanager.DJIGlobalService
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:61:9-63:43
+	android:stopWithTask
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:63:13-40
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:62:13-63
+receiver#dji.logic.receiver.DJIPilotStartupReceiver
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:65:9-72:20
+	android:exported
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:66:13-70
+intent-filter#action:name:dji.go3.STARTUP+action:name:dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:68:13-71:29
+action#dji.go3.STARTUP
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:69:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:69:25-55
+action#dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:70:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.9] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.9.aar\e39916dd49a77ba1275aa7bcf0a2a0e7\AndroidManifest.xml:70:25-55
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:10:9-61
+uses-feature#android.hardware.location
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:12:19-59
+uses-feature#android.hardware.location.gps
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:14:9-53
+uses-feature#android.hardware.telephony
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:17:9-50
+uses-feature#android.hardware.wifi
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:19:5-58
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:19:19-55
+service#com.mapzen.android.lost.internal.FusedLocationProviderService
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:22:9-24:39
+	android:process
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:23:13-89
+service#com.mapzen.android.lost.internal.GeofencingIntentService
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:25:9-29:19
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:25:18-89
+intent-filter#action:name:com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:26:13-28:29
+action#com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:27:17-91
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:27:25-88
+service#com.mapzen.android.lost.internal.DwellIntentService
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:30:9-31:19
+	android:name
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\lost-3.0.4.aar\3dcf56389ebfc345aad4d921e735e5e1\AndroidManifest.xml:30:18-84

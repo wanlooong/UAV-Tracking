@@ -1,0 +1,3 @@
+# Referenced at F:\Android\iLearn\iLearn-v2\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:66
+-keep class com.dji.videostreamdecodingsample.VideoDecodingApplication { <init>(...); }
+
